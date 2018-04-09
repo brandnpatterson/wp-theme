@@ -74,6 +74,15 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 // custom
 
 
+// use jquery from parent theme
+let $;
+
+if (window.jQuery) {
+    $ = window.jQuery;
+}
+
+console.log($('.btn'));
+
 
 /***/ }),
 /* 1 */
